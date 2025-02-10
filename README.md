@@ -19,13 +19,13 @@
 
 ## Skapare
 **Vilka är ni som skapat spelet?**  
-Om du jobbat själv, skriv ditt namn.  
+Axel Jakobsson
 
 ## Titel  
 **Spelets titel:** *Dead moves*  
 
 ## Beskrivning  
-*Beskriv ditt spel i en slående mening. Varför ska vi spela ditt spel?*  
+*Kill penguins in this exhilarating game!*  
 
 ![alt text](screenshot.png)
 
@@ -33,4 +33,4 @@ Om du jobbat själv, skriv ditt namn.
 [Spela spelet här](https://axeljakobsson.github.io/dead-moves/)  
 
 ## GitHub Repository  
-[Källkod på GitHub](https://)  
+[Källkod på GitHub](https://github.com/AxelJakobsson/dead-moves)  
