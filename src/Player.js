@@ -1,7 +1,7 @@
 import Game from "./Game.js";
 import GameObject from "./GameObject.js";
 import Dance from "./Dance.js"
-import playerImage from "./assets/DeadMoves/DeadMoves/Sprites/Player_SpriteSheet_Grid.png"
+import playerImage from "./assets/Upd_SpriteSheets/Upd_SpriteSheets/Upd_Player_SpriteSheet_NoGrid.png"
 
 export default class Player extends GameObject {
   constructor(x, y, width, height, color, game, speed) {
