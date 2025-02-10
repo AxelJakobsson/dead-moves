@@ -1,7 +1,7 @@
 import Game from "./Game.js";
 import GameObject from "./GameObject.js";
 import Dance from "./Dance.js"
-import playerImage from "./assets/DeadMoves/DeadMoves/Sprites/Player_SpriteSheet_NoGrid.png"
+import playerImage from "./assets/DeadMoves/DeadMoves/Sprites/Player_SpriteSheet_Grid.png"
 
 export default class Player extends GameObject {
   constructor(x, y, width, height, color, game, speed) {
@@ -127,8 +127,6 @@ export default class Player extends GameObject {
           this.x = this.game.width - this.width
           this.speedX = 0
         }
-    
-
         this.iframesTimer += deltaTime
       }  
 
@@ -154,7 +152,7 @@ export default class Player extends GameObject {
       }
       ctx.drawImage(
         this.image,
-        589 + this.frameX * this.frameWidth,
+        588 + this.frameX * this.frameWidth,
         this.frameY * this.frameHeight,
         this.frameWidth,
         this.frameHeight,

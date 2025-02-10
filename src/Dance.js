@@ -18,6 +18,10 @@ export default class Dance {
     }
 
     update(deltaTime) {
+        console.log(this.game.input.keys)
+
+
+
         this.timeToSolve += deltaTime
         this.buttonPressDelay += deltaTime
         this.inputDelay -= deltaTime
