@@ -14,7 +14,7 @@
 
 # Spelets Information
 
-![alt text](screenshot.png)
+<img src="screenshot.png" alt="alt text" width="600">
 
 ## Team
 **Gruppnamn:** Dead moves gruppen  
