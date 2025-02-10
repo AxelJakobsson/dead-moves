@@ -3,7 +3,7 @@ export default class Input {
         this.game = game
         this.keys = new Set()
         this.keysUp = new Set()
-        // this.keysUp = new Set()
+        // this.keysUp == new Set()
 
 
         window.addEventListener("keydown", (event) => {
