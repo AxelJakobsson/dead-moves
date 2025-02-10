@@ -152,7 +152,7 @@ export default class Player extends GameObject {
       }
       ctx.drawImage(
         this.image,
-        588 + this.frameX * this.frameWidth,
+        589 + this.frameX * this.frameWidth,
         this.frameY * this.frameHeight,
         this.frameWidth,
         this.frameHeight,
