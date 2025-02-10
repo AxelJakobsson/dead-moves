@@ -1,12 +1,13 @@
 import GameObject from "./GameObject.js"
 import Player from "./Player.js"
+import enemySprite from "./assets/Upd_SpriteSheets/Upd_SpriteSheets/Upd_Nisse_SpriteSheet_NoGrid.png"
 
 export default class Enemy extends GameObject {
   constructor(game, x, y, width, height, startX) {
     super(x, y, width, height, startX)
     this.game = game
     this.image = new Image()
-    this.image.src = "./src/assets/Upd_SpriteSheets/Upd_SpriteSheets/Upd_Nisse_SpriteSheet_NoGrid.png"
+    this.image.src = enemySprite
     this.color = "green"
     this.speedX = 3
     this.markedForDeletion = false

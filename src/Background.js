@@ -1,4 +1,5 @@
 import Layer from './Layer.js'
+import background from './assets/DeadMoves/DeadMoves/Background/Background_Assembled.png'
 
 export default class Background {
     constructor(game) {
@@ -6,7 +7,7 @@ export default class Background {
       this.width = 854
       this.height = 480
       this.bg = new Image()
-      this.bg.src = "./src/assets/DeadMoves/DeadMoves/Background/Background_Assembled.png"
+      this.bg.src = background
     //   this.fg = new Image()
     //   this.fg.src = "./src/assets/DeadMoves/DeadMoves/Background/Background_Assembled.png"
   

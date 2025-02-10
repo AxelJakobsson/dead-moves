@@ -1,6 +1,7 @@
 import Game from "./Game.js";
 import Background from "./Background.js"
 import Dance from "./Dance.js"
+import backgroundImage from "./assets/DeadMoves/DeadMoves/Background/Background_Assembled.png";
 
 export default class UserInterface {
     constructor(game) {
@@ -15,7 +16,7 @@ export default class UserInterface {
       this.delay_time = 5000
       this.pauseGameText = ""
       this.background = new Image();
-      this.background.src = "./src/assets/DeadMoves/DeadMoves/Background/Background_Assembled.png";
+      this.background.src = backgroundImage
 
       this.dance = new Dance()
     }
