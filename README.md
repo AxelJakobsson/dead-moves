@@ -14,6 +14,8 @@
 
 # Spelets Information
 
+![alt text](screenshot.png)
+
 ## Team
 **Gruppnamn:** Dead moves gruppen  
 
@@ -26,8 +28,6 @@ Axel Jakobsson
 
 ## Beskrivning  
 *Kill penguins in this exhilarating game!*  
-
-![alt text](screenshot.png)
 
 ## Länk till spelet  
 [Spela spelet här](https://axeljakobsson.github.io/dead-moves/)  
