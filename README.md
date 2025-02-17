@@ -1,36 +1,13 @@
-<!-- {
-    "team": "",
+{
+    "team": "Deadmoves",
     "creators": "Axel Jakobsson",
-    "title": "Dead moves",
-    "description": "Beskriv ditt spel i en slående mening. Varför ska vi spela ditt spel?",
+    "title": "Deadmoves spel",
+    "description": "Döda nissar i detta spännande spelet!",
     "image": "",
-    
-    "url": "[https till ditt färdiga spel](https://axeljakobsson.github.io/dead-moves/)",
-    "git": "https till ditt git repo med spelet"
-}, -->
+    "url": "https://axeljakobsson.github.io/dead-moves/",
+    "git": "https://github.com/AxelJakobsson/dead-moves"
+},
 
 
 
 
-# Spelets Information
-
-<img src="screenshot.png" alt="alt text" width="1200">
-
-## Team
-**Gruppnamn:** Dead moves gruppen  
-
-## Skapare
-**Vilka är ni som skapat spelet?**  
-Axel Jakobsson
-
-## Titel  
-**Spelets titel:** *Dead moves*  
-
-## Beskrivning  
-*Kill nissar in this exhilarating game!*  
-
-## Länk till spelet  
-[Spela spelet här](https://axeljakobsson.github.io/dead-moves/)  
-
-## GitHub Repository  
-[Källkod på GitHub](https://github.com/AxelJakobsson/dead-moves)  
