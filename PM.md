@@ -29,6 +29,9 @@ Playern i detta spel gör inte så jätte mycket, fungerar typ bara som en kolli
 
 ## Positiva erfarenheter
 
+
+
+
 Här beskriver du vad som har gått bra i ditt projekt och analyserar varför. Hur ska du upprepa framgångarna.
 
 ## Negativa erfarenheter
