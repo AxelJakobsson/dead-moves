@@ -1,4 +1,4 @@
-```
+```json
 {
     "team": "Deadmoves",
     "creators": "Axel Jakobsson",

@@ -41,39 +41,6 @@ export default class Player extends GameObject {
 
 
   update(deltaTime) {
-
-    if (this.game.gameOver == true && this.game.input.keys.has("f")){
-      console.log("game  not over")
-      this.game.gameOver = false
-    }
-
-    this.inputDelay += deltaTime
-    if (this.game.input.keys.has("ArrowLeft")) {
-      this.speedX -= this.maxSpeedX
-      this.flip = true
-    }
-    if (this.game.input.keys.has("ArrowRight")) {
-      this.speedX += this.maxSpeedX
-      this.flip = false
-    }
-    if (
-      this.game.input.keys.has("ArrowRight") &&
-      this.game.input.keys.has("ArrowLeft")
-    ) {
-      this.speedX = 0
-    }
-
-    if (this.game.input.keys.has("ArrowDown")){
-      this.speedX = 0
-    }
-
-    if (this.y >= 430){
-      this.y = 430
-      this.grounded = true
-    } else {
-      this.grounded = false
-    }
-
     if (this.speedX !== 0 || this.speedY !== 0) {
       this.interval = 1000 / this.fps
       this.frameY = 0
@@ -83,35 +50,6 @@ export default class Player extends GameObject {
       this.frameY = 0
       this.maxFrames = 10
     }
-
-
-
-
-
-    if (this.game.input.keys.has("e")) {
-      console.log("e")
-      this.width += 1
-      this.height += 1
-    }
-
-    if (this.game.input.keys.has("r")){
-        console.log("r")
-        if (this.width > 0 && this.height > 0){
-            this.width -= 1
-            this.height -= 1
-        }
-        else {
-            console.log("too small")
-        }
-      }
-      this.x += this.speedX
-      this.x += this.speedX
-        if (this.x < 0) {
-          this.x = 0
-          this.speedX = 0
-        }
-
-
         if (this.timer > this.interval) {
           this.frameX++
           this.timer = 0
