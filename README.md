@@ -1,3 +1,4 @@
+```
 {
     "team": "Deadmoves",
     "creators": "Axel Jakobsson",
@@ -7,6 +8,7 @@
     "url": "https://axeljakobsson.github.io/dead-moves/",
     "git": "https://github.com/AxelJakobsson/dead-moves"
 },
+```
 
 
 
