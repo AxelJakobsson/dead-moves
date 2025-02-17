@@ -21,6 +21,8 @@ export default class Game { // Skapar klassen
         this.elapsedTime = 0
         this.background = new Background(this)
         this.speed = 0
+
+        this.pauseDelay = 0
         
 
         this.gameOver = false
@@ -51,9 +53,11 @@ export default class Game { // Skapar klassen
     this.player.update(deltaTime)
     this.dance.update(deltaTime)
 
+    this.pauseDelay -= deltaTime
+
 
     if (!this.pauseGame){
-      if (this.input.keys.has("Escape") && this.pauseGame == false && this.player.inputDelay > 1000) {
+      if (this.input.keys.has("Escape") && this.pauseDelay <= 0) {
         this.player.inputDelay = 0
         this.ui.pauseGameText = "Paused"
         this.pauseGame = true
@@ -85,10 +89,6 @@ export default class Game { // Skapar klassen
             enemy.markedForDeletion = true
           }
           if (this.dance.buttonsPressed == this.dance.rhAmount) {
-            // this.enemies.forEach((enemy) => {
-            //   console.log("remove enemy")
-            //   enemy.markedForDeletion = true
-            // }) // removes all enemies
             enemy.markedForDeletion = true
             this.dance.buttonsPressed = 0
             this.score += 100
@@ -101,11 +101,11 @@ export default class Game { // Skapar klassen
         this.player.inputDelay += deltaTime
         
 
-        if (this.input.keys.has("Escape")  && this.pauseGame == true && this.player.inputDelay > 1000) {
+        if (this.input.keys.has("Escape")  && this.pauseGame == true && this.player.inputDelay > 400) {
           this.ui.pauseGameText = ""
           this.pauseGame = false
           console.log("unpausing")
-          this.player.inputDelay = 0
+          this.pauseDelay = 400
         }
       }
 }
